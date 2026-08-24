@@ -403,8 +403,6 @@ Provide your trading analysis in the specified JSON format."""
         "timestamp": datetime.now().isoformat(),
     }
 
-    }
-
 
 def _parse_consensus_response(text: str, model_name: str) -> Optional[Dict]:
     """Parse JSON from model response."""
